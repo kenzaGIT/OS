@@ -1,8 +1,10 @@
 Task Management Script
 
+
 This Bash script provides a simple command-line tool for managing tasks. It allows users to create, update, delete, list, and view tasks. Each task is assigned a unique ID and can include details such as title, description, location, due date, and time.
 
 Features
+
 
 Create a task: Add new tasks with details such as title, description, location, due date, and time.
 
@@ -29,11 +31,13 @@ chmod +x todo.sh
 Usage
 
 Run the script using the following command from your terminal:
+
 ./todo.sh
 
 Upon execution, the script will display a list of available commands:
 
 Welcome to Todo Script!
+
 Commands:
 
     create - Add a new task
@@ -54,7 +58,10 @@ Commands:
     
 Enter a command:
 
+
+
 Commands
+
 
 create: Follow the on-screen prompts to enter task details.
 
@@ -76,9 +83,12 @@ exit: Exits the script.
 
 
 
+
 Configuration
 
 No additional configuration is required to start using this script. Make sure that the todo.sh file is located in a directory where you have write permissions, as it needs to create and modify the tasks.txt file to store task details.
+
+
 
 Contributions
 

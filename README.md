@@ -35,6 +35,7 @@ Upon execution, the script will display a list of available commands:
 
 Welcome to Todo Script!
 Commands:
+
     create - Add a new task
     
     update - Modify an existing task

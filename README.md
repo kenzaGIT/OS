@@ -16,7 +16,10 @@ List tasks: Display all tasks with their ID and title.
 
 Show task details: View complete details of a specific task.
 
-Task completion check: List all tasks for a specified date, showing which tasks are completed and which are not
+Task completion check: List all tasks for a specified date, showing which tasks are completed and which are not.
+
+Display today's tasks: Quickly view all tasks due for today.
+
 
 Installation
 
@@ -51,6 +54,8 @@ Commands:
     show   - Show details of a specific task
     
     complete - List the completed and uncompleted tasks of a given day
+
+    todo: View all tasks due today, helpful for a quick daily overview.
     
     help   - Display this help message
     

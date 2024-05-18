@@ -23,13 +23,13 @@ get_id() {
 validate_time() {
     local input_time="$1"
 
-    # Check if the time string is empty
+   
     if [[ -z "$input_time" ]]; then
         echo "Error: Time is required."
         return 1
     fi
 
-    # Validate the time format
+   
     if ! [[ "$input_time" =~ ^([0-1][0-9]|2[0-3]):[0-5][0-9]$ ]]; then
         echo "Error: Invalid time format. Please use HH:MM."
         return 1
@@ -443,7 +443,7 @@ list_tasks() {
         return
     fi
 
-    while IFS='|' read -r id title _; do  # Using underscore (_) to ignore other fields
+    while IFS='|' read -r id title _; do  
         echo "Task ID: $id - Title: $title"
     done < "$Tasks_List"
 }
@@ -516,4 +516,3 @@ while true; do
     esac
 done
     
-}

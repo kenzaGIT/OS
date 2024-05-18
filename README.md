@@ -16,7 +16,9 @@ Installation
 To use this script, clone this repository or download the todo.sh file to your local machine. Ensure that you have permissions to execute the script.
 
 git clone https://github.com/yourUsername/yourRepository.git
+
 cd yourRepository
+
 chmod +x todo.sh
 
 Usage
